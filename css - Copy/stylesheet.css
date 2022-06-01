@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 70px;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: sienna;
+    line-height: 2;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: sienna;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: coral;
+}
+.top-container{
+    background-color: #00a7c7;
+    position: relative;
+    padding-top: 100px;
+    animation-name: example;
+    animation-duration: 7s;
+}
+@keyframes example{
+    from {background-color: rgb(67, 190, 50) ;}
+    to {background-color: #00a7c7 ;}
+  }
+.middle-container{
+    position: relative;
+    padding: auto;
+}
+.bottom-container{
+    background-color: #e76f3d;
+    padding: 50px 0 20px;
+    padding-top: 100px;
+    
+    
+}
+img{
+    position:relative;
+    right: 10px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    bottom: 300px;
+    left: 300px;
+}
+.develop-pic{
+    width: 25%;
+    margin: 50px auto 50px auto;
+}
+.sql-pic{
+    width: 25%;
+    margin: 50px auto 50px auto;
+}
+.skills{
+    background-color: #f3e9e7;
+    padding-top: 50px;
+    margin: auto;
+}
+.btn {
+  background: #00a7c7;
+  background-image: -webkit-linear-gradient(top, #00a7c7, #00a7c7);
+  background-image: -moz-linear-gradient(top, #00a7c7, #00a7c7);
+  background-image: -ms-linear-gradient(top, #00a7c7, #00a7c7);
+  background-image: -o-linear-gradient(top, #00a7c7, #00a7c7);
+  background-image: linear-gradient(to bottom, #00a7c7, #00a7c7);
+  -webkit-border-radius: 53;
+  -moz-border-radius: 53;
+  border-radius: 53px;
+  text-shadow: 1px 2px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 13px 32px 14px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}   
+ .footer-link{
+      color: #6b401b;
+      font-family: 'Montserrat', sans-serif;
+      margin: 10px 20px;
+      text-decoration: none;
+  }
+  a:hover{
+      color: rgb(49, 94, 216);
+  }
+  
+  .profile{
+      padding-bottom: 100px;
+      padding-top: 100px;
+      background-color: #9bcfe0;
+  }
+
+  .contact-me{
+      padding-top: 60px;
+      padding-bottom: 50px;
+      background-color: #feab6b;
+  }
+  
